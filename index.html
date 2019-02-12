@@ -7,27 +7,47 @@
   </head>
   <body>
 
-    <h1>Company Inc.</h1>
+    <h1>Company Inc. LLC</h1>
     <h2>For all your incorporated company needs</h2>
+    <h3>Est. 1987</h3>
 
     <!-- First, create a form tag where our inputs will be nested -->
     <form>
       
       <label for="fullname">fullname</label>
       <input type="text" id="fullname" name="fullname" placeholder="Enter Name" required>
-      
+      <br>
       <label for="email">email</label>
       <input type ="email" id="email" name="email" placeholder="Enter Email" required>
-      
+      <br>
       <label for="phone">phone</label>
       <input type="tel" id="phone" name="phone" placeholder="Enter Telephone (optional)">
-      
+      <br>
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" placeholder="Gimme the Goods">
+      <br>
       <label for="message">message</label>
-      <textarea id="message" name="message" placeholder="Enter Message">
-      
+      <textarea id="message" name="message" placeholder="Enter Message"></textarea>
+      <br>
       <label for="checkbox">Check Here if you are human.</label>
       <input type="checkbox" id="checkbox" value="I am human">
+      <br>
+      <br>
+      <label for="interest">How willing are you to volunteer?</label>
+      <select id="interest" name="interest">
+        <option value="high">1000% in!</option>
+        <option value="mediumhigh">Ehh..I could get into that</option>
+        <option value="medium">Meh</option>
+        <option value="low">Nah</option>
+      </select>
+        
+      <h3>When are you free?</h3>
+        <input type="radio" name="Freeday" value="Monday">Monday<br>
+        <input type="radio" name="Freeday" value="Tuesday">Tuesday<br>
+        <input type="radio" name="Freeday" value="Wednesday">Wednesday<br>
       
+      </select>
+    
       <input type="submit" value="Please take my money">
       
       
